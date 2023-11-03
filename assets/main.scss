@@ -1,0 +1,63 @@
+---
+---
+
+@import "minima";
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+body {
+    background-color: #FDFDFD;
+    color: black;
+    background-size: 105%;
+}
+
+.page-content {
+    color: black;
+}
+
+.page-link {
+    color: white;
+}
+
+.site-nav .page-link {
+    color: white;
+    line-height: 1.5;
+}
+
+.site-header {
+    background-color: #1C4587;
+    border-bottom: 0;
+    color: white;
+}
+
+// .site-header {
+//   border-top: 5px solid #424242;
+//   border-bottom: 1px solid #e8e8e8;
+//   min-height: 55.95px;
+//   position: relative;
+// }
+
+.site-title, .site-title:visited {
+    color: white;
+  }
+
+.site-footer {
+    background-color: #F1C232;
+}
+
+.svg-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    fill: white;
+    padding-right: 10px;
+    vertical-align: text-bottom;
+  }
