@@ -24,4 +24,3 @@ layout: page
   </iframe>
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFvzj37a-g&#x2F;view?utm_content=DAFvzj37a-g&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">August-September 2023 Issue</a> by Aaron Verril Manik
----
