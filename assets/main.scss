@@ -9,10 +9,6 @@ dl, dd, ol, ul, figure {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-h1 {
-    font-weight: bold;
-}
-
 body {
     background-color: #FDFDFD;
     color: black;
@@ -30,6 +26,7 @@ body {
 .site-nav .page-link {
     color: white;
     line-height: 1.5;
+    text-transform: uppercase;
 }
 
 .site-header {
@@ -38,15 +35,15 @@ body {
     color: white;
 }
 
-// .site-header {
-//   border-top: 5px solid #424242;
-//   border-bottom: 1px solid #e8e8e8;
-//   min-height: 55.95px;
-//   position: relative;
-// }
+.site-header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
 
 .site-title, .site-title:visited {
     color: white;
+    font-weight: bold;
   }
 
 .site-footer {
@@ -61,3 +58,48 @@ body {
     padding-right: 10px;
     vertical-align: text-bottom;
   }
+
+.post-list {
+    list-style-type: none;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .site-nav {
+      position: absolute;
+      top: 9px;
+      right: 15px;
+      background-color: #1C4587;
+      text-align: right;
+    }
+
+    .site-nav .menu-icon > svg {
+        fill: #ffffff;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
+.latest-posts {
+    flex-shrink: 1.5;
+    flex-basis: 500px;
+}
+
+.post-excerpt {
+    font-size: 10px;
+}
+
+.post-ul {
+    list-style-type: none;
+    margin: 0;
+}
