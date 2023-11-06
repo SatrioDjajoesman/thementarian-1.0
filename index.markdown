@@ -14,14 +14,14 @@ layout: page
         {% if post.category == "monthly issue" %}
           {% continue %}
         {% else %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a>
+          <li><a href="testProject/{{ post.url }}">{{ post.title }}</a>
           <br>by {{ post.author | upcase }}, {{ post.date | date: "%d %b %Y"}}
           <br>{{ post.content | strip_html | truncatewords: 30 }}</li>
           <br>
         {% endif %}
       {% endfor %}
     </ul>
-    <a href="{{ site.url }}/article-posts/">Click here to view more posts</a>
+    <a href="/testProject/{{ site.url }}/article-posts/">Click here to view more posts</a>
 
   </div>
 

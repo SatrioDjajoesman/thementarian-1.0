@@ -7,10 +7,10 @@ volume: 3
 issue: 4/5
 ---
 <html>
-{% assign folderpath = '/assets/images/' | append: page.folder %}
+{% assign folderpath = 'testProject/assets/images/' | append: page.folder %}
 {% for image in site.static_files %}
 {% if image.path contains folderpath %}
-    <img src="{{ image.path }}" alt="">
+    <img src="testProject/{{ image.path }}" alt="">
 {% endif %}
 {% endfor %}
 </html>
