@@ -1,5 +1,5 @@
 ---
-layout: monthly_issue
+layout: page
 category: monthly issue
 folder: aprilmay2023issue
 title: April & May 2023 Issue
