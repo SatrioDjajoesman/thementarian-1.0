@@ -4,7 +4,7 @@ title: Posts
 permalink: /article-posts/
 ---
 
-
+<html>
 {% for tag in site.categories %}
     {% if tag == "monthly issue"%}
         {% continue %}
@@ -17,3 +17,4 @@ permalink: /article-posts/
         </ul>
     {% endif %}
 {% endfor %}
+</html>
