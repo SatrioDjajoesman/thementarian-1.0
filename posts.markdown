@@ -6,13 +6,17 @@ permalink: /posts/
 
 <html>
 <ul class="post-ul">
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts %}
         {% if post.category == "monthly issue" %}
           {% continue %}
         {% else %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a>
-          <br>by {{ post.author | upcase }}, {{ post.date | date: "%d %b %Y"}}
-          <br>{{ post.content | strip_html | truncatewords: 30 }}</li>
+
+        {{ post.category }}
+
+        {% for s in post.category %}
+            <li><a href="{{ s.url }}">{{ s.title }}</a>
+            <br>by {{ s.author | upcase }}, {{ s.date | date: "%d %b %Y"}}
+          <br>{{ s.content | strip_html | truncatewords: 30 }}</li>
           <br>
         {% endif %}
     {% endfor %}
