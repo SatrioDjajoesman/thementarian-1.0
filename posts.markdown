@@ -6,7 +6,7 @@ permalink: /article-posts/
 
 <html>
 {% for tag in site.categories %}
-    {% if tag == "monthly issue"%}
+    {% if tag == "monthly issue" %}
         {% continue %}
     {% else %}
         <h3>{{ tag[0] }}</h3>
