@@ -1,18 +1,19 @@
 ---
 layout: page
 title: Posts
-permalink: /article-posts/
+permalink: /posts/
 ---
 
 <html>
-{% for tag in site.categories %}
-    {% if tag != "monthly issue" %}
-        <h3>{{ tag[0] }}</h3>
-        <ul>
-        {% for post in tag[1] %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% for kategori in post.categories %}
+    {% if kategori == "monthly issue"%}
+        {% continue %}
+    {% else %}
+        {% for post in kategori %}
+            <li>{{ post.title}}</li>
         {% endfor %}
-        </ul>
     {% endif %}
 {% endfor %}
+
+
 </html>
