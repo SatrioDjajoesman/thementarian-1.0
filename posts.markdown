@@ -5,13 +5,13 @@ permalink: /article-posts/
 ---
 
 
-{% for categorie in site.categories %}
-    {% if categorie == "monthly issue"%}
+{% for tag in site.categories %}
+    {% if tag == "monthly issue"%}
         {% continue %}
     {% else %}
-        <h3>{{ categorie[0] }}</h3>
+        <h3>{{ tag[0] }}</h3>
         <ul>
-        {% for post in categorie[1] %}
+        {% for post in tag[1] %}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
