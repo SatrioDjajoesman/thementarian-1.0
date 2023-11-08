@@ -11,7 +11,7 @@ permalink: /posts/
           {% continue %}
         {% else %}
 
-        {{ post.category }}
+        <li>{{ post.category }}</li>
         {% endif %}
     {% endfor %}
 </ul>
