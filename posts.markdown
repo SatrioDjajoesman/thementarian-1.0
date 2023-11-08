@@ -12,13 +12,6 @@ permalink: /posts/
         {% else %}
 
         {{ post.category }}
-
-        {% for s in post.category %}
-            <li><a href="{{ s.url }}">{{ s.title }}</a>
-            <br>by {{ s.author | upcase }}, {{ s.date | date: "%d %b %Y"}}
-            <br>{{ s.content | strip_html | truncatewords: 30 }}</li>
-            <br>
-        {% endfor %}
         {% endif %}
     {% endfor %}
 </ul>
