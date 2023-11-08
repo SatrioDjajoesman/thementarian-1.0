@@ -2,7 +2,7 @@
 layout: page
 category: monthly issue
 folder: aprilmay2023issue
-title: April & May 2023 Issue
+title: April & May 2023
 volume: 3
 issue: 4/5
 ---
