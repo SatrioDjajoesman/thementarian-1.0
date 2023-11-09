@@ -43,10 +43,8 @@ body {
 }
 
 .site-title, .site-title:visited {
-    position: absolute;
     color: white;
     font-weight: bold;
-    z-index: 11;
 }
 
 .site-footer {
@@ -75,8 +73,7 @@ body {
 
 @media screen and (max-width: 600px) {
     .site-nav {
-      position: absolute;
-      left: 0;
+      position: relative;
       top: 9px;
       right: 15px;
       background-color: #1C4587;
