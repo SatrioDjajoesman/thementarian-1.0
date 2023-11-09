@@ -39,6 +39,7 @@ body {
   position: sticky;
   width: 100%;
   top: 0;
+  z-index: 10;
 }
 
 .site-title, .site-title:visited {
@@ -72,7 +73,8 @@ body {
 
 @media screen and (max-width: 600px) {
     .site-nav {
-      position: relative;
+      position: absolute;
+      left: 0;
       top: 9px;
       right: 15px;
       background-color: #1C4587;
@@ -88,6 +90,7 @@ body {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        z-index: 1;
     }
 }
 
