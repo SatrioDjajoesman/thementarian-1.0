@@ -43,6 +43,7 @@ body {
 }
 
 .site-title, .site-title:visited {
+    position: sticky;
     color: white;
     font-weight: bold;
     z-index: 11;
