@@ -1,10 +1,10 @@
 ---
 layout: page
 category: monthly issue
-folder: march2022issue
-title: March 2022
+folder: september2022issue
+title: September 2022
 volume: 2
-issue: 3
+issue: 9
 ---
 
 <html>

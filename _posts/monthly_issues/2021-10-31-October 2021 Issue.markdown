@@ -3,8 +3,8 @@ layout: page
 category: monthly issue
 folder: october2021issue
 title: October 2021
-volume: 4
-issue: 1
+volume: 1
+issue: 4
 ---
 
 <html>

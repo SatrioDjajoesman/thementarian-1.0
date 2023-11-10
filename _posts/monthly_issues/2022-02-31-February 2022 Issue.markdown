@@ -3,8 +3,8 @@ layout: page
 category: monthly issue
 folder: february2022issue
 title: February 2022
-volume: 4
-issue: 1
+volume: 2
+issue: 2
 ---
 
 <html>
