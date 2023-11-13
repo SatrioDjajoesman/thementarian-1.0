@@ -14,6 +14,7 @@ permalink: /monthly-issues/
         {% if post.category == "monthly issue" %}
         <li class="monthly-issue-list title"><a href="{{ post.url }}">{{ post.title }}</a></li>
         <li class="monthly-issue-list"> VOLUME {{post.volume}} ISSUE {{post.issue}}</li>
+        <br>
         {% endif %}
       {% endfor %}
     </ul>
