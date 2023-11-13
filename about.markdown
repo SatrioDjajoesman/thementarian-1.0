@@ -4,8 +4,4 @@ title: About
 permalink: /about/
 ---
 
-The Mentarian is a bilingual school news publication
-
-<h1>registering</h1>
-<h1>history</h1>
-<h1>contact</h1>
+<h1>sorry! we are not finished with this page. coming soon</h1>
