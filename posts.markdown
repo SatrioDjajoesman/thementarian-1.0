@@ -4,6 +4,7 @@ title: Posts
 permalink: /article-posts/
 ---
 
+<link rel="stylesheet" href="/assets/posts.css">
 <html>
   {% capture get_items %}
 {% for cat in site.categories %}
