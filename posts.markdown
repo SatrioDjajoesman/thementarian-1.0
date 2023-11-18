@@ -25,8 +25,7 @@ permalink: /article-posts/
 {% for post in site.categories[this_word] %}
    {% if post.url %}
     <li class="post title"><a href="{{ post.url }}">{{ post.title }}</a></li>
-    <li class="post">by {{ post.author | upcase }}, {{ post.date | date: "%d %b %Y"}}
-          <br><p class="post-excerpt">{{ post.content | strip_html | truncatewords: 30 }}</p></li>
+    <li class="post">by {{ post.author | upcase }}, {{ post.date | date: "%d %b %Y"}}</li>
    {% endif %}
 {% endfor %}
 </ul>
