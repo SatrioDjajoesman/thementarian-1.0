@@ -5,7 +5,7 @@ permalink: /article-posts/
 ---
 
 <link rel="stylesheet" href="/assets/posts.css">
-<html>
+<!-- <html> -->
   {% capture get_items %}
 {% for cat in site.categories %}
 {{ cat | first | remove: "monthly issue" | replace: ' ', '_' }}
@@ -19,15 +19,20 @@ permalink: /article-posts/
 
 {% capture this_word %}{{ get_items | split:' ' | sort | join:' ' | truncatewords:item | remove:'...' | split:' ' | last | replace: '_', ' '  }}{% endcapture %}
 
-<a name="{{ this_word  }}"></a>
-<h2>{{ this_word}}</h2>
+<!-- <details>
+<summary class="heading">{{ this_word }}</summary> -->
 <ul class="related-posts">
 {% for post in site.categories[this_word] %}
+  <details>
+  <summary class="heading">{{this_word}}</summary>
    {% if post.url %}
     <li class="post title"><a href="{{ post.url }}">{{ post.title }}</a></li>
     <li class="post">by {{ post.author | upcase }}, {{ post.date | date: "%d %b %Y"}}</li>
    {% endif %}
 {% endfor %}
+  </details>
 </ul>
 {% endfor %}
-</html>
+<!-- </details> -->
+
+<!-- </html> -->
