@@ -14,8 +14,8 @@ layout: page
         {% if post.category == "monthly issue" %}
           {% continue %}
         {% else %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a>
-          <br>by {{ post.author | upcase }}, {{ post.date | date: "%d %b %Y"}}
+          <li class="title"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          <li>by {{ post.author | upcase }}, {{ post.date | date: "%d %b %Y"}}
           <br><p class="post-excerpt">{{ post.content | strip_html | truncatewords: 30 }}</p></li>
           <br>
         {% endif %}
