@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "coming soon!"
+title:  "coming soon"
 date:   2023-11-02 00:00:00 +0700
 categories: misc
 author: THE EDITORIAL BOARD

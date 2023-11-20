@@ -21,16 +21,15 @@ permalink: /article-posts/
 
 <!-- <details>
 <summary class="heading">{{ this_word }}</summary> -->
+<h2 id="{{this_word}}" class="heading">{{this_word}}</h2>
 <ul class="related-posts">
 {% for post in site.categories[this_word] %}
-  <details>
-  <summary class="heading">{{this_word}}</summary>
    {% if post.url %}
     <li class="post title"><a href="{{ post.url }}">{{ post.title }}</a></li>
     <li class="post">by {{ post.author | upcase }}, {{ post.date | date: "%d %b %Y"}}</li>
    {% endif %}
+   <br>
 {% endfor %}
-  </details>
 </ul>
 {% endfor %}
 <!-- </details> -->
