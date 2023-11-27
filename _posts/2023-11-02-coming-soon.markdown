@@ -8,7 +8,7 @@ author: THE EDITORIAL BOARD
 
 Posts are coming soon!
 
-As of the moment, you may visit our [Instagram account][ig-acc] and [Youtube account][yt-acc].
+As of the moment, you may visit our [Instagram account][ig-acc].
 
 [ig-acc]: https://www.instagram.com/thementarianonline
 [yt-acc]: https://www.youtube.com/@thementarianonline
