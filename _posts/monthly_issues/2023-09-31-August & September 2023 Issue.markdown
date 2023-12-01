@@ -1,10 +1,10 @@
 ---
 layout: page
 category: monthly issue
-folder: augustseptember2023issue
-title: August & September 2023
+folder: octobernovember2023issue
+title: October & November 2023
 volume: 4
-issue: 1
+issue: 2
 ---
 <html>
 {% assign folderpath = '/assets/images/' | append: page.folder %}
