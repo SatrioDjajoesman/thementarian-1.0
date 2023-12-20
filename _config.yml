@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-baseurl: ''
+baseurl: 
 url: https://thementarianonline.github.io
 instagram_username: thementarianonline
 theme: minima
