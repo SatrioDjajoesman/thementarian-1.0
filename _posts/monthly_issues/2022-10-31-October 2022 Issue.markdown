@@ -1,8 +1,10 @@
 ---
-layout: page
-category: monthly issue
-folder: october2022issue
 title: October 2022
+date: 2022-10-31 00:00:00 Z
+categories:
+- monthly issue
+layout: page
+folder: october2022issue
 volume: 2
 issue: 10
 ---

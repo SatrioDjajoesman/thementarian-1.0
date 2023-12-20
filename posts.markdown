@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Posts
-permalink: /posts/
+permalink: "/posts/"
+layout: page
 ---
+
 <link rel="stylesheet" href="/assets/posts.css">
 
 <ul class="post-ul">

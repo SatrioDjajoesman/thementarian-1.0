@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Monthly Issues
-permalink: /monthly-issues/
+permalink: "/monthly-issues/"
+layout: page
 ---
 
 <html>

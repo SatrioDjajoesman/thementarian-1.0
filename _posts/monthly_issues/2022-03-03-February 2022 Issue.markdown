@@ -1,10 +1,12 @@
 ---
+title: February 2022
+date: 2022-03-03 00:00:00 Z
+categories:
+- monthly issue
 layout: page
-category: monthly issue
-folder: september2021issue
-title: September 2021
-volume: 1
-issue: 3
+folder: february2022issue
+volume: 2
+issue: 2
 ---
 
 <html>

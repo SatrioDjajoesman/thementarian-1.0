@@ -1,8 +1,10 @@
 ---
-layout: page
-category: monthly issue
-folder: march2022issue
 title: March 2022
+date: 2022-03-31 00:00:00 Z
+categories:
+- monthly issue
+layout: page
+folder: march2022issue
 volume: 2
 issue: 3
 ---

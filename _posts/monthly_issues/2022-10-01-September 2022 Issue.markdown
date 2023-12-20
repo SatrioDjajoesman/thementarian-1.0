@@ -1,8 +1,10 @@
 ---
-layout: page
-category: monthly issue
-folder: september2022issue
 title: September 2022
+date: 2022-10-01 00:00:00 Z
+categories:
+- monthly issue
+layout: page
+folder: september2022issue
 volume: 2
 issue: 9
 ---

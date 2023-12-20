@@ -1,8 +1,9 @@
 ---
+title: The Mentari Theater Festival Review
+date: 2023-11-04 00:00:00 Z
+categories:
+- school
 layout: post
-title:  "The Mentari Theater Festival Review"
-date: 2023-11-04
-categories: school
 author: Jacobus Kurnia Kaalapaking
 ---
 

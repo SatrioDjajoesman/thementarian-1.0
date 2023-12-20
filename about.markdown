@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
 
 The Mentarian is the official campus publication of MISJ. With a keen journalistic eye, this student-run paper navigates the currents of academia, sports, arts, and beyond, offering insightful commentary, breaking news, and in-depth features that inform, inspire, and ignite conversations among students, staff, and parents alike. 

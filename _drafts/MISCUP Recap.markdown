@@ -1,10 +1,11 @@
 ---
+title: MISCUP Recap
+date: 2023-11-02 00:00:00 Z
+permalink: "/miscup/"
+categories:
+- school
 layout: post
-title:  "MISCUP Recap"
-date: 2023-11-02
-categories: school
 author: THE EDITORIAL BOARD
-permalink: /miscup/
 ---
 
 *from our [October-November issue article][issue-article] about MISCUP

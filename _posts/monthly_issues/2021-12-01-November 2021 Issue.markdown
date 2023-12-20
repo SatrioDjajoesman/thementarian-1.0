@@ -1,10 +1,12 @@
 ---
+title: November 2021
+date: 2021-12-01 00:00:00 Z
+categories:
+- monthly issue
 layout: page
-category: monthly issue
-folder: february2023issue
-title: February 2023
-volume: 3
-issue: 2
+folder: november2021issue
+volume: 1
+issue: 5
 ---
 
 <html>
