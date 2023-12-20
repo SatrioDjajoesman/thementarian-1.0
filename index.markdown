@@ -20,7 +20,7 @@ layout: page
         {% endif %}
       {% endfor %}
     </ul>
-    <a href="{{ site.url }}/article-posts/">Click here to view more posts</a>
+    <a href="{{ site.url }}/posts/">Click here to view more posts</a>
 
   </div>
 

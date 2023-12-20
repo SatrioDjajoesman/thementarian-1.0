@@ -11,7 +11,7 @@ permalink: /posts/
         {% continue %}
     {% else %}
         <li class="title"><a href="{{ post.url }}">{{ post.title }}</a></li>
-        <li>by {{post.author}} | {{ post.date | date: "%d %B %Y"}} | {{post.categories}}</li>
+        <li>by {{post.author}} | {{ post.date | date: "%d %B %Y"}}</li>
         <br>
     {% endif %}
 {% endfor %}
