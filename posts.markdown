@@ -7,7 +7,7 @@ layout: page
 <link rel="stylesheet" href="/assets/posts.css">
 
 <ul class="post-ul">
-{% for post in site.posts limit:5 %}
+{% for post in site.posts %}
     {% if post.category == "monthly issue" %}
         {% continue %}
     {% else %}

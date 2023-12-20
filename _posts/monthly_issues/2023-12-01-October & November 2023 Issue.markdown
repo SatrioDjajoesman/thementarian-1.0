@@ -1,8 +1,7 @@
 ---
 title: October & November 2023
-date: 2023-12-01 00:00:00 Z
-categories:
-- monthly issue
+date: 2023-12-01 00:00:00 
+category: monthly issue
 layout: page
 folder: octobernovember2023issue
 volume: 4

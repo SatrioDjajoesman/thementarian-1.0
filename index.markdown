@@ -18,11 +18,9 @@ layout: page
       {% endfor %}
     </ul>
     <a href="{{ site.url }}/posts/">Click here to view more posts</a>
-
   </div>
 
   <div class="latest-issue">
-    
   {% assign this_word = "monthly issue" %}
   {% for post in site.categories[this_word] limit: 1 %} 
     {% if post.url %}
@@ -30,7 +28,7 @@ layout: page
       <div class="monthly-issue-page">
       {% assign folderpath = '/assets/images/' | append: post.folder %}
       {% for image in site.static_files %}
-        {% if image.path contains folderpath and image.path contains "0001"%}
+        {% if image.path contains folderpath and image.path contains "0001" %}
           <a href="{{post.url}}"><img src="{{ image.path }}" alt=""></a>
         {% endif %}
       {% endfor %}

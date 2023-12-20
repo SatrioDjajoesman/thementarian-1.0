@@ -1,6 +1,6 @@
 ---
 title: Coming soon!
-date: 2023-11-04 00:00:00 Z
+date: 2023-11-04
 author: THE EDITORIAL BOARD
 layout: post
 ---

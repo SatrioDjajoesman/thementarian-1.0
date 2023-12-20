@@ -1,8 +1,7 @@
 ---
 title: November 2021
-date: 2021-12-01 00:00:00 Z
-categories:
-- monthly issue
+date: 2021-12-01
+category: monthly issue
 layout: page
 folder: november2021issue
 volume: 1

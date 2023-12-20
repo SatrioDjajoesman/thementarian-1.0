@@ -1,8 +1,7 @@
 ---
 title: July 2021
-date: 2021-07-31 00:00:00 Z
-categories:
-- monthly issue
+date: 2021-07-31
+category: monthly issue
 layout: page
 folder: july2021issue
 volume: 1

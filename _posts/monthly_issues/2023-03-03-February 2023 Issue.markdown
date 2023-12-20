@@ -1,8 +1,7 @@
 ---
 title: February 2023
-date: 2023-03-03 00:00:00 Z
-categories:
-- monthly issue
+date: 2023-03-03 00:00:00
+category: monthly issue
 layout: page
 folder: february2023issue
 volume: 3

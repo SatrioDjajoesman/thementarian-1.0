@@ -1,8 +1,7 @@
 ---
 title: January 2022
-date: 2022-01-31 00:00:00 Z
-categories:
-- monthly issue
+date: 2022-01-31 00:00:00
+category: monthly issue
 layout: page
 folder: january2022issue
 volume: 2

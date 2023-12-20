@@ -1,9 +1,8 @@
 ---
-title: September 2021
-date: 2021-10-01 00:00:00 Z
-categories:
-- monthly issue
 layout: page
+title: September 2021
+date: 2021-10-01
+category: monthly issue
 folder: september2021issue
 volume: 1
 issue: 3
