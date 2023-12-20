@@ -116,3 +116,14 @@ body {
 .title {
     font-size: 24px;
 }
+
+.monthly-issue-page img{
+transition: 1s ease;
+}
+
+.monthly-issue-page img:hover{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 1s ease;
+}
