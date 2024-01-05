@@ -4,7 +4,7 @@ layout: default
 
 <link rel="stylesheet" href="/assets/post.css">
 <h1 class="post-title">{{page.title}}</h1>
-<p><i>{{page.date | date: "%d %B %Y"}} | written by {{ page.author }} | categories: <a href="{{site.url}}/article-posts#{{page.categories}}">{{page.categories}}</a></i></p>
+<p><i>published: {{page.date | date: "%d %B %Y"}} | author: s{{ page.author }} | categories: {{page.categories}}</i></p>
 
 
-{{ content }}
+{{ content }}   

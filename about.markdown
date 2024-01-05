@@ -21,6 +21,6 @@ To build a reputable news source based on excellence and integrity by promoting 
 </ol>
 
 <h1>Contact</h1>
-For any enquiries, contact@thementarian.org
+For any enquiries, contact us through email, thementarianonline@gmail.com
 
 <!-- <h1>sorry! we are not finished with this page. coming soon</h1> -->
