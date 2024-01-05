@@ -2,6 +2,7 @@
 layout: page
 ---
 
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <div class="flex-container">
 
   <div class="latest-posts">
@@ -35,6 +36,18 @@ layout: page
       </div>
     {% endif %}
   {% endfor %}
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   <!-- <div style="position: relative; width: 100%; height: 0; padding-top: 141.4365%;
   padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
   border-radius: 8px; will-change: transform;">
