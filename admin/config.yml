@@ -2,18 +2,43 @@ backend:
   name: github
   repo: thementarianonline/thementarianonline.github.io
   branch: main
-  site_domain: gorgeous-cheesecake-c67516.netlify.app
+  site_domain: frolicking-frangipane-a0b837.netlify.com
 
-media_folder: "images/uploads"
+publish_mode: editorial_workflow
+media_folder: "/assets/images"
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
+  - name: "post" # Used in routes, e.g., /admin/collections/blog
+    label: "Post" # Used in the UI
     folder: "_posts/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Published date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
+    
+ - name: "page" # Used in routes, e.g., /admin/collections/blog
+    label: "Monthly issues" # Used in the UI
+    folder: "_posts/monthly_issues" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Categories", name: "category", widget: "string"}
+      - {label: "Folder", name: "folder", widget: "string"}
+      - {label: "Volume", name: "volume", widget: "number"}
+      - {label: "Issue", name: "issue", widget: "number"}
+
+
+
+
+
+folder: august2021issue
+volume: 1
+issue: 2
+
