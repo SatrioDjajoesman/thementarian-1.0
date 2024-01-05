@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: thementarianonline/thementarianonline.github.io
-  branch: master
+  branch: main
   site_domain: gorgeous-cheesecake-c67516.netlify.app
 
 media_folder: "images/uploads"
