@@ -1,6 +1,6 @@
 ---
 title: October 2021
-date: 2021-10-31 00:00:00
+date: '2021-10-31'
 category: monthly issue
 layout: page
 folder: october2021issue

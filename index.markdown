@@ -21,26 +21,20 @@ layout: page
   </div>
 
   <div class="latest-issue">
-  {% assign this_word = "monthly issue" %}
-  {% for post in site.categories[this_word] limit: 1 %} 
-    {% if post.url %}
-      <h2 class="monthly-issue">Latest issue: <a href="{{post.url}}">{{post.title}}</a></h2>
-      <div class="monthly-issue-page">
-      {% assign folderpath = '/assets/images/' | append: post.folder %}
-      {% for image in site.static_files %}
-        {% if image.path contains folderpath and image.path contains "0001" %}
-          <a href="{{post.url}}"><img src="{{ image.path }}" alt=""></a>
-        {% endif %}
-      {% endfor %}
-      </div>
-    {% endif %}
+  {%assign monthly_issue = site.monthly_issues | reverse%}
+  {% for issue in monthly_issue limit: 1 %}
+    <h2 class="monthly-issue">Latest issue: <a href="{{issue.url}}">{{issue.title}}</a></h2>
+    <div class="monthly-issue-page">
+    {% assign folderpath = '/assets/images/' | append: issue.folder %}
+    {% for image in site.static_files %}
+      {% if image.path contains folderpath and image.path contains "0001" %}
+        <a href="{{post.url}}"><img src="{{ image.path }}" alt=""></a>
+      {% endif %}
+    {% endfor %}
+    </div>
+
   {% endfor %}
 
-  <!-- <div style="position: relative; width: 100%; height: 0; padding-top: 141.4365%;
-  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
-  border-radius: 8px; will-change: transform;">
-    <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-      src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF1tBqqcBc&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-    </iframe>
-  </div>
-  <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF1tBqqcBc&#x2F;view?utm_content=DAF1tBqqcBc&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"> -->
+
+
+<!-- canva embed here -->

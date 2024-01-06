@@ -1,16 +1,22 @@
 ---
 title: The Mentarian
 timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+# collections:
+#   posts:
+#     title: Posts
+#     output: true
+#   uploads:
+#     title: Uploads
+#     output: true
 baseurl: 
 url: https://thementarianonline.github.io
 instagram_username: thementarianonline
 theme: minima
 plugins:
 - jekyll-feed
+
+collections:
+  monthly_issues:
+    output: true
+    permalink: /monthly_issues/:path/
+    

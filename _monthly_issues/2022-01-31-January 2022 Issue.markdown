@@ -1,6 +1,6 @@
 ---
 title: January 2022
-date: 2022-01-31 00:00:00
+date: '2022-01-31'
 category: monthly issue
 layout: page
 folder: january2022issue

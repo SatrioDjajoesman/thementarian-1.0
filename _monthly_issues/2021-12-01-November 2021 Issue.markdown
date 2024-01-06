@@ -1,11 +1,11 @@
 ---
-title: August 2021
-date: 2021-08-31 00:00:00
+title: November 2021
+date: '2021-12-01'
 category: monthly issue
 layout: page
-folder: august2021issue
+folder: november2021issue
 volume: 1
-issue: 2
+issue: 5
 ---
 
 <html>
