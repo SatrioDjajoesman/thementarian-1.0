@@ -28,7 +28,7 @@ layout: page
     {% assign folderpath = '/assets/images/' | append: issue.folder %}
     {% for image in site.static_files %}
       {% if image.path contains folderpath and image.path contains "0001" %}
-        <a href="{{post.url}}"><img src="{{ image.path }}" alt=""></a>
+        <a href="{{issue.url}}"><img src="{{ image.path }}" alt=""></a>
       {% endif %}
     {% endfor %}
     </div>
