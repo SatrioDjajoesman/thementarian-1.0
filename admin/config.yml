@@ -8,7 +8,7 @@ publish_mode: editorial_workflow
 media_folder: "/assets/images/"
 
 collections:  
-  - name: page # Used in routes, e.g., /admin/collections/blog
+  - name: "Monthly Issues" # Used in routes, e.g., /admin/collections/blog
     label: "Monthly Issues" # Used in the UI
     folder: "_posts/monthly_issues" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -23,8 +23,8 @@ collections:
       - {label: "Volume", name: "volume", widget: "number"}
       - {label: "Issue", name: "issue", widget: "number"}
 
-  - name: post # Used in routes, e.g., /admin/collections/blog
-    label: "Posts" # Used in the UI
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Post" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -34,4 +34,4 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Categories", name: "category", widget: "string"}
-      - {label: "Permalink", name: "Permalink", widget: "string"}
+      - {label: "Permalisnk", name: "Permalink", widget: "string"}
