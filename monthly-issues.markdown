@@ -1,12 +1,21 @@
 ---
 title: Monthly Issues
-permalink: "/monthly-issues/"
+permalink: "/monthly_issues/"
 layout: page
 ---
 
 <html>
 <link rel="stylesheet" href="/assets/monthly_issues.css">
-{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+<!-- {% assign monthly_issues = site.monthly_issues | reverse %} -->
+
+<!-- {% for issue in monthly_issues %}
+    <ul>
+      <li class="monthly-issue-list title"><a href="{{ issue.url }}">{{ issue.title }}</a></li>
+      <li class="monthly-issue-list"> VOLUME {{issue.volume}} ISSUE {{issue.issue}}</li>
+    </ul>
+{% endfor %} -->
+
+{% assign postsByYear = site.monthly_issues | reverse | group_by_exp:"monthly_issues", "monthly_issues.date | date: '%Y'"%}
 {% for year in postsByYear %}
   <h2>{{ year.name }}</h2>
     <ul>
@@ -19,4 +28,7 @@ layout: page
       {% endfor %}
     </ul>
 {% endfor %}
+
+
+
 </html>
