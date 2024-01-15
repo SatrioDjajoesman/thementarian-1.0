@@ -8,13 +8,9 @@ layout: page
     <h2>Latest posts</h2>
     <ul class="post-ul">
       {% for post in site.posts limit:5 %}
-        {% if post.category == "monthly issue" %}
-          {% continue %}
-        {% else %}
           <li class="title"><a href="{{ post.url }}">{{ post.title }}</a></li>
           <li>{{ post.date | date: "%d %B %Y"}}</li>
           <br>
-        {% endif %}
       {% endfor %}
     </ul>
     <a href="{{ site.url }}/posts/">Click here to view more posts</a>
