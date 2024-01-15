@@ -1,10 +1,10 @@
 ---
-title: The Mentari Theater Festival Review
+title: The Mentari Theater Festival 2023 Review
 date: '2024-01-15'
 categories: school
 layout: post
 author: Jacobus Kurnia Kaalapaking
-permalink: "/mentaritheaterfestival/"
+permalink: "/mentaritheaterfestival2023/"
 ---
 
 2023 has been a year full of surprises for all us Mentarians. Closing this year with a bang was the inaugural
