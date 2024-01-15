@@ -1,6 +1,6 @@
 ---
 title: MISCUP 2023 Recap
-date: 2023-01-12 00:00:00
+date: 2023-01-15 00:00:00
 permalink: "/miscup2023/"
 category: sports, school
 layout: post
