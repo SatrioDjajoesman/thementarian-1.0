@@ -9,7 +9,6 @@ issue: 1
 ---
 
 <html>
-<link rel="stylesheet" href="/assets/monthly_issue.css">
 {% assign folderpath = 'assets/images/' | append: page.folder %}
 {% for image in site.static_files %}
 {% if image.path contains folderpath %}
