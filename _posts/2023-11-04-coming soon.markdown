@@ -1,7 +1,7 @@
 ---
 title: Coming soon!
 date: 2023-11-04
-author: THE EDITORIAL BOARD
+author: "THE EDITORIAL BOARD"
 layout: post
 ---
 

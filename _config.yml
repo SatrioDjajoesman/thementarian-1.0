@@ -19,4 +19,3 @@ collections:
   monthly_issues:
     output: true
     permalink: /monthly_issues/:path/
-    
