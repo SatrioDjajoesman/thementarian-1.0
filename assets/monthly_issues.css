@@ -25,4 +25,7 @@ h3 {
         display: grid;
         grid-template-columns: auto;
     }
+    h3 {
+        text-align: center;
+    }
 }
