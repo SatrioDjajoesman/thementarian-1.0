@@ -1,0 +1,5 @@
+---
+title: Submit your Student Diary here!
+permalink: "/studentdiary"
+redirect_to: https://forms.gle/kX4PNhokvSwNTxZn9
+---
