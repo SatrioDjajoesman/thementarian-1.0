@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: main
 ---
 
 <div class="flex-container">
@@ -21,7 +21,7 @@ layout: page
   {% for issue in monthly_issue limit: 1 %}
     <h2 class="monthly-issue">Latest issue: <a href="{{issue.url}}">{{issue.title}}</a></h2>
     <div class="monthly-issue-page">
-    {% assign folderpath = '/assets/images/' | append: issue.folder %}
+    {% assign folderpath = '/assets/images/monthly_issues/' | append: issue.folder %}
     {% for image in site.static_files %}
       {% if image.path contains folderpath and image.path contains "0001" %}
         <a href="{{issue.url}}"><img src="{{ image.path }}" alt=""></a>

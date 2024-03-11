@@ -3,6 +3,7 @@ title: The Mentari Theater Festival 2023 Review
 date: '2024-01-16'
 categories: school
 layout: post
+folder: mtf2023
 author: "Jacobus Kurnia Kaalapaking"
 permalink: "/mentaritheaterfestival2023/"
 ---

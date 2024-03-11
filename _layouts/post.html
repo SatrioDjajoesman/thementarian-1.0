@@ -1,10 +1,35 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/post.css">
+    {% include head.html %}
+  </head>
 
-<link rel="stylesheet" href="/assets/post.css">
-<h1 class="post-title">{{page.title}}</h1>
-<p><i>published: {{page.date | date: "%d %B %Y"}} | author: {{ page.author }} | categories: {{page.categories}}</i></p>
+  <body>
+    {% include header.html %}
+
+    <div class="container">
+        <div class="item">
+            <h1>{{ page.title }}</h1>
+
+            <div class="details">
+                <p>Written by {{page.author}} | {{page.date | date: "%d %B %Y"}}</p>
+            </div>
 
 
-{{ content }}   
+            <article>
+                {{content}}
+            </article>
+            </ul>
+        </div>
+
+    </div>
+    
+    <footer>
+        {% include footer.html %}
+    </footer>
+  </body>
+</html>

@@ -2,18 +2,8 @@
 title: November 2021
 date: '2021-12-01'
 category: monthly issue
-layout: page
+layout: monthly_issue
 folder: november2021issue
 volume: 1
 issue: 5
 ---
-
-<html>
-{% assign folderpath = 'assets/images/' | append: page.folder %}
-{% for image in site.static_files %}
-{% if image.path contains folderpath %}
-    <img src="{{ image.path }}" alt="">
-{% endif %}
-{% endfor %}
-
-</html>

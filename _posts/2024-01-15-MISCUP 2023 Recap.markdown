@@ -4,6 +4,7 @@ date: 2024-01-15 00:00:00
 permalink: "/miscup2023/"
 category: sports, school
 layout: post
+folder: miscup2023
 author: "THE EDITORIAL BOARD"
 ---
 
@@ -22,8 +23,8 @@ MISCUP opened on 14th of October with three competitions: debate, swimming, and 
 
 ## Badminton
 
-![badminton](/assets/images/miscup/IMG_0323.JPG)
-![badminton](/assets/images/miscup/IMG_0300 (1).JPG)
+![badminton](/assets/images/posts/miscup/IMG_0323.JPG)
+![badminton](/assets/images/posts/miscup/IMG_0300 (1).JPG)
 
 |       | 1st  | 2nd | 3rd  |  Points  |
 |-------|----|---|---|----|
@@ -48,7 +49,7 @@ The next day, the 15th of October, was hosted by MISB with basketball, mini socc
 
 ## Mini Soccer
 
-![mini soccer](/assets/images/miscup/football.JPG)
+![mini soccer](/assets/images/posts/miscup/football.JPG)
 
 Despite sharing the amount of wins and draws against MISB, there just had to be one winner. MISJ's victory relied on the Goal Difference (GD). In the SMP category, MISJ won first place, having a 10-0 scoreline against MISGS. On the other hand, MISJ's SMA team had to concede against MISB, 4 points behind in GD. 
 
@@ -79,8 +80,8 @@ MISB vs MISGS: 6-1
 
 ## Basketball
 
-![basketball](/assets/images/miscup/basketball1.JPG)
-![basketball](/assets/images/miscup/IMG_0950.JPG)
+![basketball](/assets/images/posts/miscup/basketball1.JPG)
+![basketball](/assets/images/posts/miscup/IMG_0950.JPG)
 
 MISJ's SMP team showcased a convincing victory against MISGS and MISB, earning the first place spot. On the other hand, MISJ had a narrow gap with MISB, failing to secure the second place.
 
@@ -121,7 +122,7 @@ MISJ showed total dominance on the essay writing competition. Unfortunately, MIS
 # Day 3 Results: 2🥇, 3🥈, 0🥉  
 MISCUP finally closed nearly two weeks later on the 28th of October, bringing the event to a climax with volleyball, table tennis, and chess hosted by MISGS. 
 
-![team volleyball](/assets/images/miscup/team%20volleyball%20miscup.jpeg)
+![team volleyball](/assets/images/posts/miscup/team%20volleyball%20miscup.jpeg)
 ## Volleyball SMA
 As there were no participants from MISJ and MISB for the SMP category, the SMP competition was skipped. MISGS faced a turbulent start however they found their way through, winning 3-1 against MISB and MISJ respectively. The last match of the day was MISJ vs MISB, to decide who will take the second place. MISJ earned the second place by a close margin during the tiebreaker.
 
@@ -136,7 +137,7 @@ MISJ vs MISB: 3-2\
 MISGS vs MISB: 3-1
 
 ## Table tennis
-![table tennis](/assets/images/miscup/table%20tennis.jpeg)
+![table tennis](/assets/images/posts/miscup/table%20tennis.jpeg)
 Without MISB sending any players for table tennis, the competition was entirely between MISJ and MISGS. MISJ was able to gain victory against MISGS in the SMP Boys Singles category, winning by 3-2. Unfortunately, for the other two categories, SMA Boys Singles and Doubles, MISJ had to concede by 1-3.
 
 |       | 1st  | 2nd | 3rd  |  Points  |
